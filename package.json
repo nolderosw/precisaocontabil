@@ -1,0 +1,19 @@
+{
+  "name": "precisaocontabil",
+  "version": "1.0.0",
+  "description": "servidor para o site portfolio Precisao Contabil",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "Precisao contabil",
+    "contabilidade",
+    "Portfolio"
+  ],
+  "author": "Wesley Azevedo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
