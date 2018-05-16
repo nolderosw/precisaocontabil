@@ -110,9 +110,9 @@
 		
         $(window).load(function(){
         $(".typing").typed({
-            strings: ["I am A Freelancer.", "I Design Websites.", "I Live in New York."],    /* You can change the home section typing text from
+            strings: ["Sejam Bem Vindos!","A precisão Contábil, junto com vocês numa nova fase de crescimento e conquistas com inovação e tecnologias aliados a Contabilidade proporcionando soluções e oportunidades."],    /* You can change the home section typing text from
 	                                                                                            here and do not use "&" use "and" */
-            typeSpeed: 50
+            typeSpeed: 30
           });
          });
         
