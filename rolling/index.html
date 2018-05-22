@@ -55,6 +55,30 @@
 
     <!-- Home & Menu Section Start -->
     <header id="home" class="home-section">
+            <div style="margin-top: 10%;" class="modal fade" id="exemplomodal" tabindex="-1" role="dialog" aria- labelledby="myLargeModalLabel">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="gridSystemModalLabel">Sejam Bem Vindos</h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>A precisão Contábil, junto com vocês numa nova fase de crescimento e conquistas com inovação e tecnologias aliados a Contabilidade proporcionando soluções e oportunidades.</p>
+                                    <p><strong>Att. Equipe Precisão Contábil.</strong></p>
+                                    <i>
+                                    <p>
+                                    E, quando Deus concede riquezas e bens a alguém e o capacita a desfrutá-los, a aceitar a sua sorte e a ser feliz em seu trabalho, isso é um presente de Deus.</p>
+                                    <p>Eclesiastes 5:19</p></i>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
         <div class="header-top-area">
             <div class="container">
@@ -126,13 +150,13 @@
                                     <div class="margin-top-60">
                           <a class="button button-style button-style-icon fa fa-long-arrow-right smoth-scroll" href="#portfolio">View Portfolio</a>
                                   </div> -->
-                                  
+
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
         </div>
 
     </header>
@@ -612,6 +636,12 @@
 
     <!-- Main Javascript File  -->
     <script type="text/javascript" src="js/scripts.js"></script>
+
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('#exemplomodal').modal('show');
+        });
+    </script>
 
 
 </body>
